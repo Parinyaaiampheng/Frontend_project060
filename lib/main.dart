@@ -23,7 +23,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: LoginPage(),
-      theme: Provider.of<ThemeProvider>(context).themeData,
     );
   }
 }
